@@ -25,23 +25,4 @@ function pemp_remane_post_type( $args ){
 }
 add_filter( 'woocommerce_register_post_type_product', 'pemp_remane_post_type' );
 
-add_action( 'init', 'cp_change_post_object' );
-// Change dashboard Posts to News
-function cp_change_post_object() {
-    $get_post_type = get_post_type_object('post');
-    $labels = $get_post_type->labels;
-        $labels->name = 'Artículos';
-        $labels->singular_name = 'Artículo';
-        $labels->add_new = 'Añadir artículo';
-        $labels->add_new_item = 'Añadir artículo';
-        $labels->edit_item = 'Editar artículo';
-        $labels->new_item = 'Artículo';
-        $labels->view_item = 'Ver';
-        $labels->search_items = 'Buscar';
-        $labels->not_found = 'No hay artículos';
-        $labels->all_items = 'Artículos';
-        $labels->menu_name = 'Blog';
-        $labels->name_admin_bar = 'Artículo';
-}
-
 ?>

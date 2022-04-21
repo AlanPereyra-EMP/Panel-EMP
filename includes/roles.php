@@ -1,9 +1,19 @@
 <?php
 function pemp_simple_shop_manager() {
     add_role(
-        'simple_shop_manager',
-        'Simple Shop Manager',
+        'emp_shop_manager',
+        'EMP Shop Manager',
         array(
+          'level_9'                => true,
+  				'level_8'                => true,
+  				'level_7'                => true,
+  				'level_6'                => true,
+  				'level_5'                => true,
+  				'level_4'                => true,
+  				'level_3'                => true,
+  				'level_2'                => true,
+  				'level_1'                => true,
+  				'level_0'                => true,
           'read'                   => true,
           'edit_posts'             => true,
           'edit_product'           => true,
@@ -26,6 +36,8 @@ function pemp_simple_shop_manager() {
           'delete_private_posts'   => true,
           'delete_published_posts' => true,
           'manage_links'           => true,
+          'manage_categories'      => true,
+          'assign_product_terms'   => true,
           'moderate_comments'      => true,
           'upload_files'           => true,
         ),
@@ -34,7 +46,7 @@ function pemp_simple_shop_manager() {
 add_action( 'init', 'pemp_simple_shop_manager' );
 
 // function pemp_simple_role_remove() {
-//     remove_role( 'simple_shop_manager' );
+//     remove_role( 'emp_shop_manager' );
 // }
 //
 // // Remove the simple_role.
