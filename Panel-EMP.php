@@ -8,7 +8,7 @@ Author URI: https://empralidad.com.ar/
 Text Domain: pemp
 License: Attribution-NonCommercial-NoDerivatives 3.0 IGO
 License URI: https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode
-Version: 1.1.1
+Version: 1.1.2
 */
 if ( ! defined( 'ABSPATH' ) ){
 	exit;
