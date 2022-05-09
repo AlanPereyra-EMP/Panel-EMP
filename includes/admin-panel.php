@@ -7,7 +7,7 @@ function pemp_remane_post_type( $args ){
         'menu_name'          => _x( 'Inmuebles', 'Admin menu name', 'pemp' ),
         'add_new'            => __( 'Añadir propiedad', 'pemp' ),
         'add_new_item'       => __( 'Añadir nueva propiedad', 'pemp' ),
-        'edit'               => __( 'Editar', 'pemp' ),
+        'edit'               => __( 'Editar', 'pemp' ), 
         'edit_item'          => __( 'Edit propiedad', 'pemp' ),
         'new_item'           => __( 'Nueva propiedad', 'pemp' ),
         'view'               => __( 'Ver propiedad', 'pemp' ),
