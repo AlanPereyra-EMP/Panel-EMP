@@ -27,7 +27,6 @@ function pemp_simple_shop_manager() {
           'delete_private_posts'   => true,
           'delete_published_posts' => true,
           'manage_links'           => true,
-          'manage_options'         => true,
           'manage_product_terms'   => true,
           'manage_categories'      => true,
           'assign_product_terms'   => true,
