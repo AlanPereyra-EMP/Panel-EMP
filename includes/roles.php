@@ -10,6 +10,7 @@ function pemp_simple_shop_manager() {
           'edit_products'          => true,
           'edit_others_products'   => true,
           'edit_private_products'  => true,
+          'edit_product_terms'  => true,
           'edit_published_products'=> true,
           'read_product'           => true,
           'read_private_products'  => true,
